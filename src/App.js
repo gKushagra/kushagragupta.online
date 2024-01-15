@@ -1,7 +1,6 @@
 import * as React from "react";
-import "./App.css";
-import { Box, IconButton } from "./material-components";
-import { Brightness4Icon, Brightness7Icon } from "./material-icons";
+import { Box, IconButton } from "./material/material-components";
+import { Brightness4Icon, Brightness7Icon } from "./material/material-icons";
 import { useTheme } from "@mui/material/styles";
 
 export const ColorModeContext = React.createContext({
